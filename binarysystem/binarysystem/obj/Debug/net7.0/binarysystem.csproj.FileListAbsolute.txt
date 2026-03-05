@@ -1,0 +1,11 @@
+F:\.net_roadmap\binarysystem\binarysystem\bin\Debug\net7.0\binarysystem.deps.json
+F:\.net_roadmap\binarysystem\binarysystem\bin\Debug\net7.0\binarysystem.dll
+F:\.net_roadmap\binarysystem\binarysystem\bin\Debug\net7.0\binarysystem.pdb
+F:\.net_roadmap\binarysystem\binarysystem\obj\Debug\net7.0\binarysystem.GeneratedMSBuildEditorConfig.editorconfig
+F:\.net_roadmap\binarysystem\binarysystem\obj\Debug\net7.0\binarysystem.AssemblyInfoInputs.cache
+F:\.net_roadmap\binarysystem\binarysystem\obj\Debug\net7.0\binarysystem.AssemblyInfo.cs
+F:\.net_roadmap\binarysystem\binarysystem\obj\Debug\net7.0\binarysystem.csproj.CoreCompileInputs.cache
+F:\.net_roadmap\binarysystem\binarysystem\obj\Debug\net7.0\binarysystem.dll
+F:\.net_roadmap\binarysystem\binarysystem\obj\Debug\net7.0\refint\binarysystem.dll
+F:\.net_roadmap\binarysystem\binarysystem\obj\Debug\net7.0\binarysystem.pdb
+F:\.net_roadmap\binarysystem\binarysystem\obj\Debug\net7.0\ref\binarysystem.dll

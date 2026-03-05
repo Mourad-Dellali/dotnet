@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "MainBinarySystem/1.0.0": {
+        "dependencies": {
+          "binarysystem": "1.0.0"
+        },
+        "runtime": {
+          "MainBinarySystem.dll": {}
+        }
+      },
+      "binarysystem/1.0.0": {
+        "runtime": {
+          "binarysystem.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MainBinarySystem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "binarysystem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

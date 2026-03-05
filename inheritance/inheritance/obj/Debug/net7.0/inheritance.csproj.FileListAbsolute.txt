@@ -1,0 +1,14 @@
+F:\.net_roadmap\inheritance\inheritance\bin\Debug\net7.0\inheritance.exe
+F:\.net_roadmap\inheritance\inheritance\bin\Debug\net7.0\inheritance.deps.json
+F:\.net_roadmap\inheritance\inheritance\bin\Debug\net7.0\inheritance.runtimeconfig.json
+F:\.net_roadmap\inheritance\inheritance\bin\Debug\net7.0\inheritance.dll
+F:\.net_roadmap\inheritance\inheritance\bin\Debug\net7.0\inheritance.pdb
+F:\.net_roadmap\inheritance\inheritance\obj\Debug\net7.0\inheritance.GeneratedMSBuildEditorConfig.editorconfig
+F:\.net_roadmap\inheritance\inheritance\obj\Debug\net7.0\inheritance.AssemblyInfoInputs.cache
+F:\.net_roadmap\inheritance\inheritance\obj\Debug\net7.0\inheritance.AssemblyInfo.cs
+F:\.net_roadmap\inheritance\inheritance\obj\Debug\net7.0\inheritance.csproj.CoreCompileInputs.cache
+F:\.net_roadmap\inheritance\inheritance\obj\Debug\net7.0\inheritance.dll
+F:\.net_roadmap\inheritance\inheritance\obj\Debug\net7.0\refint\inheritance.dll
+F:\.net_roadmap\inheritance\inheritance\obj\Debug\net7.0\inheritance.pdb
+F:\.net_roadmap\inheritance\inheritance\obj\Debug\net7.0\inheritance.genruntimeconfig.cache
+F:\.net_roadmap\inheritance\inheritance\obj\Debug\net7.0\ref\inheritance.dll

@@ -1,0 +1,14 @@
+F:\.net_roadmap\CAProperty\CAProperty\bin\Debug\net7.0\CAProperty.exe
+F:\.net_roadmap\CAProperty\CAProperty\bin\Debug\net7.0\CAProperty.deps.json
+F:\.net_roadmap\CAProperty\CAProperty\bin\Debug\net7.0\CAProperty.runtimeconfig.json
+F:\.net_roadmap\CAProperty\CAProperty\bin\Debug\net7.0\CAProperty.dll
+F:\.net_roadmap\CAProperty\CAProperty\bin\Debug\net7.0\CAProperty.pdb
+F:\.net_roadmap\CAProperty\CAProperty\obj\Debug\net7.0\CAProperty.GeneratedMSBuildEditorConfig.editorconfig
+F:\.net_roadmap\CAProperty\CAProperty\obj\Debug\net7.0\CAProperty.AssemblyInfoInputs.cache
+F:\.net_roadmap\CAProperty\CAProperty\obj\Debug\net7.0\CAProperty.AssemblyInfo.cs
+F:\.net_roadmap\CAProperty\CAProperty\obj\Debug\net7.0\CAProperty.csproj.CoreCompileInputs.cache
+F:\.net_roadmap\CAProperty\CAProperty\obj\Debug\net7.0\CAProperty.dll
+F:\.net_roadmap\CAProperty\CAProperty\obj\Debug\net7.0\refint\CAProperty.dll
+F:\.net_roadmap\CAProperty\CAProperty\obj\Debug\net7.0\CAProperty.pdb
+F:\.net_roadmap\CAProperty\CAProperty\obj\Debug\net7.0\CAProperty.genruntimeconfig.cache
+F:\.net_roadmap\CAProperty\CAProperty\obj\Debug\net7.0\ref\CAProperty.dll

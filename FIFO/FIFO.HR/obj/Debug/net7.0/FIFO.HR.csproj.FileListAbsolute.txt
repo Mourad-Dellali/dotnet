@@ -1,0 +1,14 @@
+F:\.net_roadmap\FIFO\FIFO.HR\bin\Debug\net7.0\FIFO.HR.exe
+F:\.net_roadmap\FIFO\FIFO.HR\bin\Debug\net7.0\FIFO.HR.deps.json
+F:\.net_roadmap\FIFO\FIFO.HR\bin\Debug\net7.0\FIFO.HR.runtimeconfig.json
+F:\.net_roadmap\FIFO\FIFO.HR\bin\Debug\net7.0\FIFO.HR.dll
+F:\.net_roadmap\FIFO\FIFO.HR\bin\Debug\net7.0\FIFO.HR.pdb
+F:\.net_roadmap\FIFO\FIFO.HR\obj\Debug\net7.0\FIFO.HR.GeneratedMSBuildEditorConfig.editorconfig
+F:\.net_roadmap\FIFO\FIFO.HR\obj\Debug\net7.0\FIFO.HR.AssemblyInfoInputs.cache
+F:\.net_roadmap\FIFO\FIFO.HR\obj\Debug\net7.0\FIFO.HR.AssemblyInfo.cs
+F:\.net_roadmap\FIFO\FIFO.HR\obj\Debug\net7.0\FIFO.HR.csproj.CoreCompileInputs.cache
+F:\.net_roadmap\FIFO\FIFO.HR\obj\Debug\net7.0\FIFO.HR.dll
+F:\.net_roadmap\FIFO\FIFO.HR\obj\Debug\net7.0\refint\FIFO.HR.dll
+F:\.net_roadmap\FIFO\FIFO.HR\obj\Debug\net7.0\FIFO.HR.pdb
+F:\.net_roadmap\FIFO\FIFO.HR\obj\Debug\net7.0\FIFO.HR.genruntimeconfig.cache
+F:\.net_roadmap\FIFO\FIFO.HR\obj\Debug\net7.0\ref\FIFO.HR.dll

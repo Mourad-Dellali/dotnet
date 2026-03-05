@@ -1,0 +1,9 @@
+F:\.net_roadmap\oopconstructor\oopconstructor\obj\Debug\netstandard2.1\oopconstructor.GeneratedMSBuildEditorConfig.editorconfig
+F:\.net_roadmap\oopconstructor\oopconstructor\obj\Debug\netstandard2.1\oopconstructor.AssemblyInfoInputs.cache
+F:\.net_roadmap\oopconstructor\oopconstructor\obj\Debug\netstandard2.1\oopconstructor.AssemblyInfo.cs
+F:\.net_roadmap\oopconstructor\oopconstructor\obj\Debug\netstandard2.1\oopconstructor.csproj.CoreCompileInputs.cache
+F:\.net_roadmap\oopconstructor\oopconstructor\bin\Debug\netstandard2.1\oopconstructor.deps.json
+F:\.net_roadmap\oopconstructor\oopconstructor\bin\Debug\netstandard2.1\oopconstructor.dll
+F:\.net_roadmap\oopconstructor\oopconstructor\bin\Debug\netstandard2.1\oopconstructor.pdb
+F:\.net_roadmap\oopconstructor\oopconstructor\obj\Debug\netstandard2.1\oopconstructor.dll
+F:\.net_roadmap\oopconstructor\oopconstructor\obj\Debug\netstandard2.1\oopconstructor.pdb

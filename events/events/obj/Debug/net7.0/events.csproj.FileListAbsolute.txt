@@ -1,0 +1,14 @@
+F:\.net_roadmap\events\events\bin\Debug\net7.0\events.exe
+F:\.net_roadmap\events\events\bin\Debug\net7.0\events.deps.json
+F:\.net_roadmap\events\events\bin\Debug\net7.0\events.runtimeconfig.json
+F:\.net_roadmap\events\events\bin\Debug\net7.0\events.dll
+F:\.net_roadmap\events\events\bin\Debug\net7.0\events.pdb
+F:\.net_roadmap\events\events\obj\Debug\net7.0\events.GeneratedMSBuildEditorConfig.editorconfig
+F:\.net_roadmap\events\events\obj\Debug\net7.0\events.AssemblyInfoInputs.cache
+F:\.net_roadmap\events\events\obj\Debug\net7.0\events.AssemblyInfo.cs
+F:\.net_roadmap\events\events\obj\Debug\net7.0\events.csproj.CoreCompileInputs.cache
+F:\.net_roadmap\events\events\obj\Debug\net7.0\events.dll
+F:\.net_roadmap\events\events\obj\Debug\net7.0\refint\events.dll
+F:\.net_roadmap\events\events\obj\Debug\net7.0\events.pdb
+F:\.net_roadmap\events\events\obj\Debug\net7.0\events.genruntimeconfig.cache
+F:\.net_roadmap\events\events\obj\Debug\net7.0\ref\events.dll

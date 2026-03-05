@@ -1,0 +1,14 @@
+F:\.net_roadmap\ABC\HR\bin\Debug\net7.0\HR.exe
+F:\.net_roadmap\ABC\HR\bin\Debug\net7.0\HR.deps.json
+F:\.net_roadmap\ABC\HR\bin\Debug\net7.0\HR.runtimeconfig.json
+F:\.net_roadmap\ABC\HR\bin\Debug\net7.0\HR.dll
+F:\.net_roadmap\ABC\HR\bin\Debug\net7.0\HR.pdb
+F:\.net_roadmap\ABC\HR\obj\Debug\net7.0\HR.GeneratedMSBuildEditorConfig.editorconfig
+F:\.net_roadmap\ABC\HR\obj\Debug\net7.0\HR.AssemblyInfoInputs.cache
+F:\.net_roadmap\ABC\HR\obj\Debug\net7.0\HR.AssemblyInfo.cs
+F:\.net_roadmap\ABC\HR\obj\Debug\net7.0\HR.csproj.CoreCompileInputs.cache
+F:\.net_roadmap\ABC\HR\obj\Debug\net7.0\HR.dll
+F:\.net_roadmap\ABC\HR\obj\Debug\net7.0\refint\HR.dll
+F:\.net_roadmap\ABC\HR\obj\Debug\net7.0\HR.pdb
+F:\.net_roadmap\ABC\HR\obj\Debug\net7.0\HR.genruntimeconfig.cache
+F:\.net_roadmap\ABC\HR\obj\Debug\net7.0\ref\HR.dll
