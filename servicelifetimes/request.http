@@ -1,0 +1,9 @@
+@baseUrl = https://localhost:7268
+
+
+GET {{baseUrl}}/check
+
+
+####
+
+GET {{baseUrl}}/check2
