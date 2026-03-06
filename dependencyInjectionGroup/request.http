@@ -1,0 +1,3 @@
+@baseUrl=https://localhost:7154
+
+GET {{baseUrl}}/weather/city/Tissemsilt
