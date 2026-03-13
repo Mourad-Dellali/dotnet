@@ -1,0 +1,5 @@
+@baseUrl= https://localhost:7011
+
+
+###
+GET {{baseUrl}}/api/products/test
