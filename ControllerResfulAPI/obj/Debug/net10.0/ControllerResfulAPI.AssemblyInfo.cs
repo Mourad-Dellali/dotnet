@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ControllerResfulAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2047b34107a2cd3ef140084c45f257e493c4c317")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01c6059b1e917bfa1dd0c893dc30370005437527")]
 [assembly: System.Reflection.AssemblyProductAttribute("ControllerResfulAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ControllerResfulAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

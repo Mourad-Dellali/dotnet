@@ -364,5 +364,5 @@ public class ProductRepository
         return true;
     }
     public bool ExistsById(Guid id) => _products.Any(p=>p.Id==id);
-    public bool ExistsByName(string? name) => _products.Any(p=>p.Name==name);
+    public bool ExistsByName(string? name) => _products.Any(p=>string.Equals(p.Name,name,StringComparison.OrdinalIgnoreCase));
 }

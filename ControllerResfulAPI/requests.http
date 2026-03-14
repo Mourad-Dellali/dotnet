@@ -13,8 +13,30 @@ HEAD {{baseUrl}}/api/products/{{productId}}
 
 ### Get product id
 
-GET {{baseUrl}}/api/products/{{productId}}?includeReviews=true
+GET {{baseUrl}}/api/products/{{productId}}?includeReviews=false
 
 
 ### GET paged result
 GET {{baseUrl}}/api/products?page=2&pageSize=3
+
+
+### Create Product
+POST {{baseUrl}}/api/products
+Content-Type: application/json
+
+{
+    "name": "Keyboard",
+    "price": 49.99
+}
+
+### Get Same product
+GET {{baseUrl}}/api/products/ # put id
+
+### Put Product
+PUT {{baseUrl}}/api/products/{{productId}}
+Content-Type: application/json
+
+{
+    "name":"test",
+    "price": 20
+}

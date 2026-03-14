@@ -1,5 +1,6 @@
 using ControllerResfulAPI.Data;
 using ControllerResfulAPI.models;
+using ControllerResfulAPI.Requests;
 using ControllerResfulAPI.Responses;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -53,5 +54,46 @@ public class ProductController(ProductRepository repository): ControllerBase
         }
 
         return ProductResponse.FromModel(product,reviews);
+    }
+
+
+    [HttpPost]
+    public IActionResult CreateProduct(CreateProductRequest request)
+    {
+        if (repository.ExistsByName(request.Name))
+        return Conflict($"A product with a similar Name already exists {request.Name}");
+        
+        var product = new Product
+        {
+          Id=Guid.NewGuid(),
+          Name=request.Name,
+          Price=request.Price  
+        };
+        repository.AddProduct(product);
+
+        return CreatedAtRoute(routeName: nameof(GetProductById),
+        routeValues: new {productId= product.Id},
+        value: ProductResponse.FromModel(product));
+    }
+
+    [HttpPut("{productId:guid}")]
+    public IActionResult Put(Guid productId, UpdateProductRequest request)
+    {
+        var product = repository.GetProductById(productId);
+        if (product == null)
+        return NotFound($"Product Not Found With Id {productId}");
+
+        product.Name=request.Name;
+        product.Price= request.Price;
+
+        var succeeded= repository.UpdateProduct(product);
+
+        if(!succeeded) 
+        return StatusCode(500,"Failed to Update Product");
+
+        return CreatedAtRoute(routeName:nameof(GetProductById),
+        routeValues: new {productId=productId},
+        value:ProductResponse.FromModel(product));
+
     }
 }
