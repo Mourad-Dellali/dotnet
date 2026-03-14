@@ -1,0 +1,20 @@
+@baseUrl=https://localhost:7294
+
+@productId=6d35f2f3-e2f6-417e-97e8-3f7a56eb0f3f
+### Options
+
+OPTIONS {{baseUrl}}/api/products
+
+
+### Head
+
+HEAD {{baseUrl}}/api/products/{{productId}}
+
+
+### Get product id
+
+GET {{baseUrl}}/api/products/{{productId}}?includeReviews=true
+
+
+### GET paged result
+GET {{baseUrl}}/api/products?page=2&pageSize=3

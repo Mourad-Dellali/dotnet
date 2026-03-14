@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\.net_roadmap\\ControllerResfulAPI\\ControllerResfulAPI.csproj": {}
+    "F:\\.net_roadmap\\ControllerResfulAPI\\ControllerResfulAPI.csproj": {}
   },
   "projects": {
-    "f:\\.net_roadmap\\ControllerResfulAPI\\ControllerResfulAPI.csproj": {
+    "F:\\.net_roadmap\\ControllerResfulAPI\\ControllerResfulAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\.net_roadmap\\ControllerResfulAPI\\ControllerResfulAPI.csproj",
+        "projectUniqueName": "F:\\.net_roadmap\\ControllerResfulAPI\\ControllerResfulAPI.csproj",
         "projectName": "ControllerResfulAPI",
-        "projectPath": "f:\\.net_roadmap\\ControllerResfulAPI\\ControllerResfulAPI.csproj",
+        "projectPath": "F:\\.net_roadmap\\ControllerResfulAPI\\ControllerResfulAPI.csproj",
         "packagesPath": "C:\\Users\\Mourad\\.nuget\\packages\\",
-        "outputPath": "f:\\.net_roadmap\\ControllerResfulAPI\\obj\\",
+        "outputPath": "F:\\.net_roadmap\\ControllerResfulAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
