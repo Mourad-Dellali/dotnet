@@ -44,3 +44,20 @@ Content-Type: application/json
 ### Delete Product
 
 DELETE  {{baseUrl}}/api/products/{{productId}}
+
+
+### Get File
+
+GET {{baseUrl}}/api/products/csv
+
+### Get Physical File
+GET {{baseUrl}}/api/products/physical-csv-file
+
+
+### redirect (302)
+
+GET {{baseUrl}}/api/products/products-legacy
+
+
+### permanent redirect (301)
+GET {{baseUrl}}/api/products/legacy-product

@@ -1,3 +1,4 @@
+using System.Text;
 using ControllerResfulAPI.Data;
 using ControllerResfulAPI.models;
 using ControllerResfulAPI.Requests;
@@ -108,5 +109,57 @@ public class ProductController(ProductRepository repository): ControllerBase
         return StatusCode(500,"Failed To Delete Product");
 
         return NoContent();
+    }
+
+    [HttpGet("csv")]
+    public IActionResult GetProductCSV()
+    {
+        var products= repository.GetProductsPage(1,100);
+        
+        var csvBuilder = new StringBuilder();
+        csvBuilder.AppendLine("Id,Name,Price");
+
+        foreach (var p in products)
+        {
+            csvBuilder.AppendLine($"{p.Id},{p.Name},{p.Price}");
+        }
+
+        var fileBytes = Encoding.UTF8.GetBytes(csvBuilder.ToString());
+
+        return File(fileBytes,"Text/csv", "product-catalog_1-100.csv");
+    }
+
+    [HttpGet("physical-csv-file")]
+    public IActionResult GetPhysicalFile()
+    {
+        string filePath = Path.Combine(Directory.GetCurrentDirectory(),"Files","product-catalog_1-100.csv");
+        return PhysicalFile(filePath, "text/csv", "product-export.csv");
+    }
+
+
+    [HttpGet("products-legacy")]
+    public IActionResult GetRedirect()
+    {
+        return Redirect("/api/products/temp-products");
+    }
+
+    [HttpGet("temp-products")]
+    public IActionResult TempProduct()
+    {
+        return Ok(new
+        {
+            message = "You're in the temp endpoint. Chill."
+        });
+    }
+    [HttpGet("legacy-product")]
+    public IActionResult GetPermanentRedirect()
+    {
+        return RedirectPermanent("/api/products/product-catalog");
+    }
+
+    [HttpGet("product-catalog")]
+    public IActionResult Catalog()
+    {
+        return Ok(new { message = "New Permanenet Location"});
     }
 }
