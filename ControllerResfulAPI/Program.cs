@@ -1,8 +1,15 @@
 using ControllerResfulAPI.Data;
+using ControllerResfulAPI.Formatters;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(
+    options=>
+    {
+        options.ReturnHttpNotAcceptable = true; // returns 406 if format not accepted
+        options.OutputFormatters.Add(new PlainTextTableOutputFormatter());
+    }
+);
 
 builder.Services.AddSingleton<ProductRepository>();
 

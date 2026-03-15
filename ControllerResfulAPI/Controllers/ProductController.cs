@@ -162,4 +162,12 @@ public class ProductController(ProductRepository repository): ControllerBase
     {
         return Ok(new { message = "New Permanenet Location"});
     }
+
+    [HttpGet("products-table")]
+    [Produces("text/primitive-table")]
+    public IActionResult GetProductsAsTable()
+    {
+        var products= repository.GetProductsPage(1,100);
+        return Ok(products);
+    }
 }
