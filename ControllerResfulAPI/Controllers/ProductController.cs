@@ -96,4 +96,17 @@ public class ProductController(ProductRepository repository): ControllerBase
         value:ProductResponse.FromModel(product));
 
     }
+    [HttpDelete("{productId:guid}")]
+    public IActionResult Delete(Guid productId)
+    {
+        var product = repository.GetProductById(productId);
+        if (product == null)
+        return NotFound("Product Doesn't Exists{productId}");
+
+        var deletesucced= repository.DeleteProduct(product.Id);
+        if (!deletesucced)
+        return StatusCode(500,"Failed To Delete Product");
+
+        return NoContent();
+    }
 }

@@ -17,7 +17,7 @@ GET {{baseUrl}}/api/products/{{productId}}?includeReviews=false
 
 
 ### GET paged result
-GET {{baseUrl}}/api/products?page=2&pageSize=3
+GET {{baseUrl}}/api/products?page=1&pageSize=3
 
 
 ### Create Product
@@ -40,3 +40,7 @@ Content-Type: application/json
     "name":"test",
     "price": 20
 }
+
+### Delete Product
+
+DELETE  {{baseUrl}}/api/products/{{productId}}
