@@ -13,7 +13,7 @@ builder.Services.AddControllers(
     }
 );
 
-builder.Services.AddSingleton<ProductRepository>();
+builder.Services.AddScoped<ProductRepository>();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
