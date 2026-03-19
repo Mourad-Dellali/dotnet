@@ -1,0 +1,29 @@
+@baseUrl=https://localhost:7284
+@productId= a7d5f08e-3d68-4ef8-8fb4-f0ca1a53ed01
+
+
+### Get Products
+
+GET {{baseUrl}}/api/products
+
+### Get Paged Products
+
+GET {{baseUrl}}/api/products?pageNumber=1&pageSize=3
+
+### Get Singular Product
+
+GET {{baseUrl}}/api/products/{{productId}}
+
+
+### Create Product
+
+POST {{baseUrl}}/api/products
+Content-Type: application/json
+
+{
+    "id": "a7d5244e-3d68-4ef8-8fb4-f0ca1a53ed01",
+    "name": "New Product",
+    "price": 19.99
+}
+
+
