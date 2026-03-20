@@ -1,0 +1,21 @@
+@baseurl = https://localhost:7223
+
+
+POST {{baseurl}}/api/products
+Content-Type: application/json
+
+{
+	"name": "Gaming Keyboard",
+	"description": "Mechanical keyboard with RGB backlight and hot-swappable switches.",
+	"sku": "PRD-/ddddd",
+	"price": 129.99,
+	"stockQuantity": 45,
+	"launchDate": "2026-04-10T00:00:00Z",
+	"category": "Electronics",
+	"imageUrl": "https://example.com/images/gaming-keyboard.jpg",
+	"weight": 0.01,
+	"warrantyPeriodMonths": 24,
+	"isReturnable": true,
+	"returnPolicy": "30-day return window with original packaging.",
+	"tags": ["keyboard", "gaming", "mechanical"]
+}
