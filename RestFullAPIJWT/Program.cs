@@ -20,6 +20,7 @@ builder.Services.AddAuthentication(options =>
     var jwtSettings = builder.Configuration.GetSection("jwtSettings");
     options.TokenValidationParameters = new ()
     {
+        ClockSkew = TimeSpan.Zero,
         ValidateIssuer = true,
         ValidateAudience = true,
         ValidateLifetime = true,
@@ -49,6 +50,8 @@ builder.Services.AddAuthorization(options =>
 });
 
 var app = builder.Build();
+
+app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();

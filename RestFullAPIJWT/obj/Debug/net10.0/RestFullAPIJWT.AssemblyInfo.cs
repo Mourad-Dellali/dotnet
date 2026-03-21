@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RestFullAPIJWT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb0efdeacac48cb4e0ba72358112257faffa5f79")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7788b6151a2ddfab0b67487b11549bdebb1370b")]
 [assembly: System.Reflection.AssemblyProductAttribute("RestFullAPIJWT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RestFullAPIJWT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
